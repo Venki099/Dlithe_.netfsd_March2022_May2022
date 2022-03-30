@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>JavaScript Arithmetic</h1>
+    <p>
+      A typical arithmetic operation takes two numbers and produces a new
+      number.
+    </p>
+    <p id="demo"></p>
+    <script>
+      let x = 100 + 50;
+      document.getElementById("demo").innerHTML = x;
+      let y = 101;
+      let p = 50;
+      let q = y % p;
+      document.getElementById("demo").innerHTML = q;
+      let a = 25;
+      let b = 2;
+      let c = a ** b;
+      document.getElementById("demo").innerHTML = c;
+      let w;
+      w = 10;
+      w = "John";
+      w = "it's alright";
+      let z = 123e5;
+      let e = 123e-5;
+      document.getElementById("demo").innerHTML = w + " " + z + " " + e;
+      let A = 10;
+      let B = 10;
+      let C = 20;
+      document.getElementById("demo").innerHTML = (A == B) + " " + (B == C);
+      const person = {
+        firstName: "VSG",
+        lastname: "G",
+        age: 26,
+        eyeColor: "Black",
+      };
+      document.getElementById("demo").innerHTML =
+        "The age of person is " + person.age;
+      let car;
+      document.getElementById("demo").innerHTML = car;
+    </script>
+  </body>
+</html>

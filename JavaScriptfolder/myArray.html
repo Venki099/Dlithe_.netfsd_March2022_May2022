@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>JavaScript String Methods</h1>
+    <p>Using String.split():</p>
+    <p id="demo"></p>
+    <script>
+      var text = "Hello";
+      const myArr = text.split("");
+      text = "";
+      for (let i = 0; i < myArr.length; i++) {
+        text += myArr[i] + "<br>";
+      }
+      document.getElementById("demo").innerHTML = text;
+    </script>
+  </body>
+</html>

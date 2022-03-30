@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>JavaScript Objects</h1>
+    <p>JavaScript objects are mutable</p>
+    <p>
+      Any changes to a copy of an object will also change the original object:
+    </p>
+    <p id="demo"></p>
+    <script>
+      const people = {
+        fName: "VS",
+        lName: "G",
+        age: 26,
+        elecolor: "black",
+      };
+      const x = people;
+      x.elecolor = "brown";
+      document.getElementById("demo").innerHTML =
+        people.fName + people.lName + " has eye color " + people.elecolor;
+    </script>
+  </body>
+</html>

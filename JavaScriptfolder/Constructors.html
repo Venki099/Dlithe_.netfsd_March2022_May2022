@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>JavaScript Object Constructors</h2>
+    <p id="demo"></p>
+
+    <script>
+      function Person(fName, lName, age, color) {
+        this.firstName = fName;
+        this.lastName = lName;
+        this.age = age;
+        this.eyecolor = color;
+      }
+
+      const myFather = new Person("xyz", "abc", 26, "blue");
+      document.getElementById("demo").innerHTML = myFather.age;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #rcorner1 {
+        border-radius: 15px 50px 30px 5px;
+        background: #73ad21;
+        height: 150px;
+        width: 200px;
+        padding: 20px;
+      }
+      #rcorner2 {
+        border-radius: 15px 50px 30px;
+        background: #73ad21;
+        width: 200px;
+        height: 150px;
+        padding: 20px;
+      }
+      #borderimg {
+        border: 10px solid transparent;
+        padding: 15px;
+        border-image: url(https://images.unsplash.com/photo-1594315590298-329f49c8dcb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGhlJTIwc3VufGVufDB8fDB8fA%3D%3D&w=1000&q=80)
+          50 round;
+      }
+      #borderimgaging {
+        border: 10px solid transparent;
+        padding: 15px;
+        border-image: url(https://images.unsplash.com/photo-1594315590298-329f49c8dcb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGhlJTIwc3VufGVufDB8fDB8fA%3D%3D&w=1000&q=80)
+          20 stretch;
+        background-color: hsl(0, 100%, 50%);
+      }
+      #grdiants {
+        height: 200px;
+        background-image: linear-gradient(red, yellow);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The border-radius Property</h1>
+    <p>Four values - border-radius: 15px 50px 30px 5px:</p>
+    <p id="rcorner1"></p>
+    <p>Three values - border-radius: 15px 50px 30px:</p>
+    <p id="rcorner2"></p>
+    <p id="borderimg">Border Img</p>
+    <p id="borderimgaging">Border Img</p>
+    <p id="grdiants"></p>
+  </body>
+</html>

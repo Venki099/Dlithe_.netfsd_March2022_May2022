@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forms</title>
+  </head>
+  <body>
+    <form>
+      <label for="fname">First Name</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="lname">Last Name</label><br />
+      <input type="text" id="lname" name="lname" /><br />
+    </form>
+    <br />
+
+    <form>
+      <input type="radio" id="html" name="fav_Language" value="HTML" />
+      <label for="html">HTML</label><br />
+      <input type="radio" id="css" name="fav_Language" value="CSS" />
+      <label for="CSS">CSS</label><br />
+      <input
+        type="radio"
+        id="javascript"
+        name="fav_Language"
+        value="javascript"
+      />
+      <label for="JavaScript">javaScript</label><br />
+    </form>
+    <br />
+
+    <form>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+      <label for="vehicle1">I have a bike</label><br />
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+      <label for="vehicle2">I have a Car</label><br />
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+      <label for="vehicle3">I have a Boat</label>
+    </form>
+    <br />
+
+    <form action="http://127.0.0.1:5500/variable.html">
+      <label for="fname">First name</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="lname">Last Name</label><br />
+      <input type="text" id="lname" name="lname" /><br />
+      <input type="submit" value="submit" />
+    </form>
+    <br />
+
+    <form
+      action="https://www.w3schools.com/html/html_forms.asp"
+      target="iframe"
+    >
+      <label for="fname">First Name</label><br />
+      <input type="text" id="fname" value="John" /><br /><br />
+      <input type="submit" value="Submit" / >
+    </form>
+    <br />
+
+    <form
+      action="https://www.javatpoint.com/how-to-add-background-image-in-html"
+      target="blank"
+    >
+      <label for="fname">First Name</label><br />
+      <input type="text" id="fname" name="fname" value="John" /><br />
+      <label for="lname">Last Name</label><br />
+      <input type="text" id="lname" name="lname" value="Doe" /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+
+    <form
+      action="https://www.javatpoint.com/how-to-add-background-image-in-html"
+      method="get"
+    >
+      <label for="fname">First Name</label><br />
+      <input type="text" id="fname" name="fname" value="John" /><br />
+      <label for="lname">Last Name</label><br />
+      <input type="text" id="lname" name="lname" value="Doe" /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+
+    <form action="http://127.0.0.1:5500/variable.html" method="get">
+      <label for="fname">First Name</label><br />
+      <input type="text" id="fname" name="fname" value="John" /><br />
+      <label for="lname">Last Name</label><br />
+      <input type="text" id="lname" name="lname" value="Doe" /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+
+    <form action="http://127.0.0.1:5500/variable.html" autocomplete="off">
+      <label for="fname">First Name</label><br />
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <label for="email">Email</label><br />
+      <input type="text" id="email" name="email" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <form action="http://127.0.0.1:5500/variable.html">
+      <label for="fname">First Name</label><br />
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <form
+      action="https://www.carwale.com/?utm_source=google&utm_medium=cpc&utm_campaign=11563520562&utm_term=carwale&gclid=CjwKCAiA9tyQBhAIEiwA6tdCrGXoVUEL_yIfowiUUJGLSS285XGwXdTcacYSgp6qZ46UvWnAjBhtpRoCMggQAvD_BwE"
+    >
+      <label for="cars">Choose a Car</label>
+      <select name="cars" id="cars">
+        <option value="https://www.reuters.com/resizer">Volvo</option>
+        <option value="BMW" selected>BMW</option>
+        <option value="Fiat">Fiat</option>
+        <option value="Audi">Audi</option>
+      </select>
+      <input type="submit" />
+    </form>
+    <br />
+
+    <form
+      action="https://www.carwale.com/?utm_source=google&utm_medium=cpc&utm_campaign=11563520562&utm_term=carwale&gclid=CjwKCAiA9tyQBhAIEiwA6tdCrGXoVUEL_yIfowiUUJGLSS285XGwXdTcacYSgp6qZ46UvWnAjBhtpRoCMggQAvD_BwE"
+    >
+      <label for="cars">Choose the car</label>
+      <select name="cars" id="cars" size="4" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="BMW">BMW</option>
+        <option value="Fiat">Fiat</option>
+        <option value="Audi">Audi</option>
+      </select>
+      <input type="submit" />
+    </form>
+    <br />
+
+    <form action="http://127.0.0.1:5500/variable.html">
+      <textarea name="message" cols="30" rows="10">
+The cat was playing in the garden.</textarea
+      ><br />
+      <input type="submit" />
+    </form>
+    <br />
+
+    <form action="http://127.0.0.1:5500/variable.html">
+      <textarea name="mesage" style="width: 300px; height: 100px">
+The cat was playing in the garden.</textarea
+      ><br />
+      <input type="submit" />
+    </form>
+
+    <h2>The Button Element</h2>
+    <button type="button" onclick="alert('Hello World!')">Click Me</button>
+
+    <h2>Grouping data for field Set</h2>
+    <form action="http://127.0.0.1:5500/variable.html">
+      <fieldset>
+        <legend>Personalia:</legend>
+        <br /><br />
+        <label for="fname">First Name</label><br />
+        <input type="text" id="fname" name="fanme" /><br />
+        <label for="lname">Last name</label><br />
+        <input type="text" id="lname" name="lname" /><br />
+        <input type="submit" />
+      </fieldset>
+    </form>
+    <br />
+    <h2>Data List Element</h2>
+
+    <form action="http://127.0.0.1:5500/variable.html">
+      <input list="browers" name="browers" />
+      <datalist id="browers">
+        <option value="Internet Explorer"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+      <input type="submit" />
+    </form>
+    <br />
+
+    <h2>Text Field</h2>
+    <p>
+      The <strong>input type="text"</strong>defines a one-line text input field
+    </p>
+
+    <form action="http://127.0.0.1:5500/variable.html">
+      <label for="fname">First Name</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="lname">Last Nmae</label><br />
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <input type="submit" value="submit" />
+    </form>
+    <br />
+    <h2>Password field</h2>
+
+    <p>The <strong>input type="password"</strong>defines a password field:</p>
+
+    <form action="http://127.0.0.1:5500/variable.html">
+      <label for="username">Username:</label><br />
+      <input type="text" id="Username" name="Username" /><br />
+      <label for="pwd">Password:</label><br />
+      <input type="password" id="pwd" name="pwd" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+
+    <h2>Reset Button</h2>
+    <p>
+      The <strong>input type="reset"</strong>defines a reset button that resets
+      all form values to their default values:
+    </p>
+    <form action="http://127.0.0.1:5500/variable.html">
+      <label for="fname">First Name</label><br />
+      <input type="text" id="fanme" name="fanme" value="John" /><br />
+      <label for="lname">Last Name</label><br />
+      <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+      <input type="submit" value="Submit" />
+      <input type="reset" />
+    </form>
+    <br />
+    <h2>Radio Buttons</h2>
+
+    <p>The <strong>input type="radio"</strong>defines a radio button:</p>
+    <p>Choose your favorite Web language:</p>
+    <form action="http://127.0.0.1:5500/variable.html">
+      <input type="radio" id="html" name="fav_Language" value="HTML" />
+      <label for="html">HTML</label><br />
+      <input type="radio" id="css" name="fav_Language" value="CSS" />
+      <label for="css">CSS</label><br />
+      <input
+        type="radio"
+        id="javascript"
+        name="fav_Language"
+        value="JavaScript"
+      />
+      <label for="javaScript">JavaScript</label><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <h2>Input Button</h2>
+    <br />
+    <input type="button" onclick="alert('Hello World!')" value="Click Me" />
+    <br />
+    <h2>Show a Color Picker</h2>
+    <p>
+      The <strong>input type="color"</strong> is used for input fields that
+      should contain a color.
+    </p>
+    <p>Select your favorite color:</p>
+    <form action="http://127.0.0.1:5500/variable.html">
+      <label for="favcolor">Select your favorite color:</label>
+      <input type="color" id="favcolor" name="favcolor" />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <h2>Date Field</h2>
+    <p>
+      The <strong>input type="date"</strong>is used for input fields that should
+      contain a date.
+    </p>
+    <form action="http://127.0.0.1:5500/variable.html">
+      <label for="birthday">BirthDay</label>
+      <input type="date" id="birthday" name="birthday" />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <h2>Date Field Restrictions</h2>
+    <p>Use the min and max attributes to add restrictions to dates:</p>
+    <form action="http://127.0.0.1:5500/variable.html">
+      <label for="datemin">Enter a date after 2000-01-01:</label>
+      <input
+        type="date"
+        id="datemin"
+        name="datemin"
+        min="2000-01-02"
+      /><br /><br />
+      <label for="datemax">Enter a date before 1980-01-01:</label>
+      <input
+        type="date"
+        id="datemax"
+        name="datemax"
+        max="1980/01/01"
+      /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <h2>Local Date Field</h2>
+    <p>
+      The <strong> input type="datetime-local"</strong>specifies a date and time
+      input field, with no time zone.
+    </p>
+    <form action="http://127.0.0.1:5500/variable.html">
+      <label for="birthdaytime">Birthday (date and time):</label>
+      <input type="datetime-local" id="birthdaytime" name="birthdaytime" />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <h2>Email Field</h2>
+    <p>
+      The <strong>input type="email"</strong>is used for input fields that
+      should contain an e-mail address:
+    </p>
+    <form action="http://127.0.0.1:5500/variable.html">
+      <label for="email">Enter your email:</label>
+      <input type="email" id="email" name="email" />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <h2>File upload</h2>
+    <p>Show a file-select field which allows a file to be chosen for upload:</p>
+    <form action="http://127.0.0.1:5500/variable.html">
+      <label for="myfile">Select a file:</label>
+      <input type="file" id="myfile" name="myfile" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <h2>A Hidden Field (look in source code)</h2>
+    <form action="http://127.0.0.1:5500/variable.html">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <input type="hidden" id="custId" name="custId" value="3437" />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <h2>Month Field</h2>
+    <p>
+      The <strong>input type="month"</strong>allows the user to select a month
+      and year.
+    </p>
+    <form action="http://127.0.0.1:5500/variable.html">
+      <label for="bdayMonth">Birthday (month and year):</label>
+      <input type="month" id="bdayMonth" name="bdayMonth" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

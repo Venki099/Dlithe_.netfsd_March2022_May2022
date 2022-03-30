@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        position: relative;
+      }
+      .topleft {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 18px;
+      }
+      .bootmleft {
+        position: absolute;
+        bottom: 23px;
+        left: 20px;
+        font-size: 20px;
+      }
+      .topright {
+        position: absolute;
+        top: 20px;
+        right: 25px;
+        font-size: 20px;
+      }
+      .bottomright {
+        position: absolute;
+        right: 20px;
+        bottom: 24px;
+        font-size: 22px;
+      }
+      .centered {
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 100%;
+        font-size: 30px;
+      }
+      img {
+        width: 100%;
+        opacity: 0.3;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://www.sitesbay.com/html/images/berners-lee.png"
+        alt="xyz"
+        width="1000"
+        height="300"
+      />
+      <div class="topleft">TopLeft</div>
+      <div class="bootmleft">BottomLeft</div>
+      <div class="topright">TopRight</div>
+      <div class="bottomright">BottomRight</div>
+      <div class="centered">Centered</div>
+    </div>
+  </body>
+</html>

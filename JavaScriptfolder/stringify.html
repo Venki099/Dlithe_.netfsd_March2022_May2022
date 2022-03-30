@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Stringify</h2>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+      const person = {
+        name: "Joe",
+        eyeColor: "Blue",
+        age: function () {
+          return 30;
+        },
+      };
+      const arr = ["John", "Peter", "Sally", "Jane"];
+      let myString = JSON.stringify(arr);
+      person.age = person.age.toString();
+      document.getElementById("demo").innerHTML = JSON.stringify(person);
+      document.getElementById("demo1").innerHTML = myString;
+    </script>
+  </body>
+</html>

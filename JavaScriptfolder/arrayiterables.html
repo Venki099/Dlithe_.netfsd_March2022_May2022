@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>JavaScript Iterables</h2>
+    <p>Iterate over an Array:</p>
+    <p id="demo"></p>
+    <script>
+      const letters = ["a", "b", "c"];
+      let txt = "";
+      for (const x of letters) {
+        txt += x + "<br>";
+      }
+      document.getElementById("demo").innerHTML = txt;
+    </script>
+  </body>
+</html>

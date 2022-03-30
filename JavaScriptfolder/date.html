@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>date</h1>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+    <p id="demo7"></p>
+    <script>
+      const d = new Date(2018);
+      const s = new Date("October 21, 2014 13:13:00");
+      const q = new Date();
+      const p = new Date("2022-03-11");
+      const e = new Date("2022-03");
+      const f = new Date("2015");
+      const g = 10;
+      const h = 10;
+      const i = 4;
+
+      document.getElementById("demo").innerHTML = d;
+      document.getElementById("demo1").innerHTML = s;
+      document.getElementById("demo2").innerHTML = q.toUTCString();
+      document.getElementById("demo3").innerHTML = p;
+      document.getElementById("demo4").innerHTML = e;
+      document.getElementById("demo5").innerHTML = f;
+      document.getElementById("demo6").innerHTML = g == 8;
+      document.getElementById("demo7").innerHTML = h >= 5 && i > 10;
+    </script>
+  </body>
+</html>

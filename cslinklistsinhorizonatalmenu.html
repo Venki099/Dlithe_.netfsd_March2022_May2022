@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      li {
+        display: inline;
+      }
+      span {
+        display: block;
+      }
+      a {
+        display: block;
+      }
+      h1 {
+        display: none;
+      }
+      h2 {
+        visibility: hidden;
+      }
+      p.one {
+        border: 2px solid green;
+        position: static;
+      }
+      p.two {
+        border: 2px solid green;
+        position: relative;
+        left: 30px;
+      }
+      p.three {
+        border: 2px solid green;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+      }
+      p.four {
+        border: 2px solid green;
+        width: 400px;
+        height: 200px;
+        position: relative;
+      }
+      p.five {
+        border: 2px solid green;
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        top: 80px;
+        right: 0;
+      }
+      div.ex1 {
+        border: 2px solid green;
+        width: 400px;
+        height: 200px;
+        position: relative;
+      }
+      div.ex2 {
+        border: 2px solid green;
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        top: 80px;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Display a list of links as a horizontal menu:</p>
+    <ul>
+      <li><a href="https://www.w3schools.com/html/default.asp">HTml</a></li>
+      <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+      <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
+    </ul>
+    <h1>Display span elements as block elements</h1>
+
+    <span>A display property with </span>
+    <span> a value of "block" </span>
+    <span> results in a line break between each span elements.</span>
+    <br />
+    <h1>Display links as block elements</h1>
+    <a href="https://www.w3schools.com/html/default.asp">HTML</a>
+    <a href="https://www.w3schools.com/css/default.asp">CSS</a>
+    <a href="https://www.w3schools.com/js/default.asp">JavaScpipt</a>
+    <h2>Visibility Heading</h2>
+    <p class="one">This is para</p>
+    <p class="two">This element has position: relative;</p>
+    <p class="three">This div element has position: fixed;</p>
+    <p class="four">This div element has position: relative;</p>
+    <p class="five">This div element has position: absolute;</p>
+    <br />
+    <div class="ex1">
+      This div element has position: relative;
+      <div class="ex2">relative;This div element has position: absolute;</div>
+    </div>
+  </body>
+</html>

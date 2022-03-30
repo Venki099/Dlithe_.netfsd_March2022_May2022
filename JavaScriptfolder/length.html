@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>JavaScript String Properties</h1>
+    <p>The length property returns the length of a string:</p>
+    <p id="demo"></p>
+    <script>
+      let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      document.getElementById("demo").innerHTML = text.length;
+      let a = 'We are so called "Vikings" from north';
+      document.getElementById("demo").innerHTML = a;
+      let c = 'it\'s alright "VSG"';
+      document.getElementById("demo").innerHTML = c;
+      let z = "abc";
+      let x = new String("pqr");
+      document.getElementById("demo").innerHTML = typeof z + "<br>" + typeof x;
+      let b = new String("john");
+      let d = new String("john");
+      document.getElementById("demo").innerHTML = b == d;
+      document.getElementById("demo").innerHTML = b === d;
+      let g = "Apple, Banana, Kiwi";
+      let temp = g.slice(7);
+      document.getElementById("demo").innerHTML = temp;
+      let qwe = g.slice(-12, -6);
+      document.getElementById("demo").innerHTML = qwe;
+      let qwz = g.substr(-4);
+      document.getElementById("demo").innerHTML = qwz;
+    </script>
+  </body>
+</html>

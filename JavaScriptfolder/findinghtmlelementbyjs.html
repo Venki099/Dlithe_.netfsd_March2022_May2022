@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Finding HTML Elements by Id</h2>
+    <p id="id01">Hello World!</p>
+    <p id="id02">Hello Sweden!</p>
+    <p id="id03">Hello Japan!</p>
+
+    <p id="demo"></p>
+
+    <script>
+      const mylement = document.getElementById("id02");
+      document.getElementById("demo").innerHTML =
+        "The text from the id01 paragraph is:" + mylement.innerHTML;
+    </script>
+  </body>
+</html>

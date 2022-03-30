@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>JavaScript Object Constructors</h2>
+    <p id="demo"></p>
+    <script>
+      function Person(fName, lName, age, eye) {
+        this.firstName = fName;
+        this.lastName = lName;
+        this.age = age;
+        this.eyeColor = eye;
+        this.changeName = function (name) {
+          return (this.lastName = name);
+        };
+      }
+      const myMother = new Person("Sally", "Rally", 48, "green");
+      myMother.changeName("Doe");
+      document.getElementById("demo").innerHTML = myMother.lastName;
+    </script>
+  </body>
+</html>

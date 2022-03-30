@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+    <p id="demo7"></p>
+    <p id="demo8"></p>
+    <p id="demo9"></p>
+    <script>
+      document.getElementById("demo").innerHTML =
+        "Screen width is " + screen.width;
+      document.getElementById("demo2").innerHTML =
+        " Screen height is " + screen.height;
+      document.getElementById("demo3").innerHTML =
+        " Screen color depth is " + screen.colorDepth;
+      document.getElementById("demo4").innerHTML =
+        " Screen color depth is " + screen.pixelDepth;
+      document.getElementById("demo5").innerHTML =
+        " Page location is " + window.location.href;
+      document.getElementById("demo6").innerHTML =
+        " Page host name " + window.location.hostname;
+      document.getElementById("demo7").innerHTML =
+        " Page path is " + window.location.pathname;
+      document.getElementById("demo8").innerHTML =
+        " Page protocol is " + window.location.protocol;
+      document.getElementById("demo9").innerHTML =
+        " Page port is " + window.location.port;
+    </script>
+  </body>
+</html>

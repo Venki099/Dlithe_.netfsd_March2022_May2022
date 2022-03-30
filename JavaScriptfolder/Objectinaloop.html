@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>JavaScript Objects</h2>
+    <p>Display object properties:</p>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <script>
+      const person = {
+        name: "John",
+        age: 26,
+        city: "New York",
+      };
+      const person1 = {
+        name: "John",
+        age: 26,
+        city: "New York",
+      };
+      const person2 = {
+        name: "John",
+        age: 26,
+        Date: new Date(),
+      };
+      let txt = "";
+      for (let x in person) {
+        txt += person[x] + " ";
+      }
+      let myarray = Object.values(person1);
+      document.getElementById("demo").innerHTML = txt;
+      document.getElementById("demo1").innerHTML = myarray;
+      document.getElementById("demo2").innerHTML = JSON.stringify(person2);
+    </script>
+  </body>
+</html>

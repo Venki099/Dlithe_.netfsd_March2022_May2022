@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>JavaScript Array Methods</h1>
+    <p>slice()</p>
+    <p>
+      When the slice() method is given two arguments, it selects array elements
+      from the start argument, and up to (but not included) the end argument:
+    </p>
+    <p id="demo1"></p>
+    <script>
+      const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+      let removed = fruits.slice(1, 3);
+      document.getElementById("demo1").innerHTML =
+        fruits + "<br>" + "<br>" + removed;
+    </script>
+  </body>
+</html>

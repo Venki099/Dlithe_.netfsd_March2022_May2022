@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: left;
+      }
+      h3 {
+        text-align: right;
+      }
+      p {
+        text-align: justify;
+      }
+      div {
+        border: 1px solid black;
+        padding: 10px;
+        width: 200px;
+        height: 200px;
+        text-align: justify;
+      }
+      p.a {
+        text-align-last: right;
+      }
+      p.b {
+        text-align-last: left;
+      }
+      p.c {
+        text-align-last: justify;
+      }
+      p.d {
+        text-align: initial;
+        direction: rtl;
+        unicode-bidi: bidi-override;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Heading 1 (center)</h1>
+    <h2>Heading 2 (left)</h2>
+    <h3>Heading 3 (right)</h3>
+    <p>
+      Cascading Style Sheets (CSS) is a style sheet language used for describing
+      the presentation of a document written in a markup language such as
+      HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside
+      HTML and JavaScript.[2] CSS is designed to enable the separation of
+      presentation and content, including layout, colors, and fonts.[3] This
+      separation can improve content accessibility; provide more flexibility and
+      control in the specification of presentation characteristics; enable
+      multiple web pages to share formatting by specifying the relevant CSS in a
+      separate .css file, which reduces complexity and repetition in the
+      structural content; and enable the .css file to be cached to improve the
+      page load speed between the pages that share the file and its formatting.
+      Separation of formatting and content also makes it feasible to present the
+      same markup page in different styles for different rendering methods, such
+      as on-screen, in print, by voice (via speech-based browser or screen
+      reader), and on Braille-based tactile devices. CSS also has rules for
+      alternate formatting if the content is accessed on a mobile device.[4] The
+      name cascading comes from the specified priority scheme to determine which
+      style rule applies if more than one rule matches a particular element.
+      This cascading priority scheme is predictable. The CSS specifications are
+      maintained by the World Wide Web Consortium (W3C). Internet media type
+      (MIME type) text/css is registered for use with CSS by RFC 2318 (March
+      1998). The W3C operates a free CSS validation service for CSS
+      documents.[5] In addition to HTML, other markup languages support the use
+      of CSS including XHTML, plain XML, SVG, and XUL.
+    </p>
+    <br /><br />
+    <div>
+      In my younger and more vulnerable years my father gave me some advice that
+      I've been turning over in my mind ever since. 'Whenever you feel like
+      criticizing anyone,' he told me, 'just remember that all the people in
+      this world haven't had the advantages that you've had.'
+    </div>
+    <br />
+    <h1>The text-align-last Property</h1>
+    <br />
+    <h2>text-align-last: right:</h2>
+    <p class="a">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam
+      at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus
+      diam, consequat gravida libero rhoncus ut.
+    </p>
+    <br />
+    <h2>text-align-last: center:</h2>
+    <br />
+    <p class="b">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam
+      at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus
+      diam, consequat gravida libero rhoncus ut.
+    </p>
+    <br />
+    <h2>text-align-last: justify:</h2>
+    <br />
+    <p class="c">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam
+      at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus
+      diam, consequat gravida libero rhoncus ut.
+    </p>
+    <br />
+    <p class="d">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam
+      at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus
+      diam, consequat gravida libero rhoncus ut.
+    </p>
+  </body>
+</html>
