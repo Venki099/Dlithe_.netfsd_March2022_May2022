@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <script>
+      $(document).ready(function () {
+        $("#1").click(function () {
+          $("#div1").slideToggle(2000, function () {
+            alert("All operations are done");
+          });
+        });
+      });
+    </script>
+
+    <button id="1">Callback function</button>
+    <div id="div1">
+      <p>31-MARCH-2022</p>
+      <h2>Welcome</h2>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $("#2").click(function () {
+          $("#div2")
+            .slideToggle(5000,function () {
+              alert("All tasks Done");
+            })
+            .css("font-family", "Gill Sans Extrabold, sans-serif;")
+            .css("font-size", "40px" ).css("color","red").css("font-size","20px")
+        });
+      });
+    </script>
+
+    <button id="2">Feedback</button>
+    <div id="div2">
+        <h2>JavaScript Callbacks</h2>
+        <p>
+            <pre>
+                A callback is a function passed as an argument to another function.
+            </pre>
+        </p>
+    </div>
+  </body>
+</html>
