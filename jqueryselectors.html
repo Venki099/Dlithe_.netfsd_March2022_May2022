@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jquery Selectors</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <h1>JQUERY SELECTORS</h1>
+    <script>
+      $(document).ready(function () {
+        $("#buttons").click(function () {
+          $("p").hide();
+        });
+      });
+    </script>
+
+    <p>Dlithe</p>
+    <p>DLithe Consultancy Services Pvt Ltd</p>
+
+    <button id="buttons">Hide all p element</button>
+
+    <h1>Hiding wrt to id using Jquery</h1>
+
+    <script>
+      $(document).ready(function () {
+        $("#buttons1").click(function () {
+          $("#test").hide();
+        });
+      });
+    </script>
+
+    <h4>Data Input</h4>
+
+    <p id="test">Hiding using id as element</p>
+
+    <button id="buttons1">hide</button>
+  </body>
+</html>

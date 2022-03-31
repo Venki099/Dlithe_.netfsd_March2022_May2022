@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div
+      id="div4"
+      style="width: 80px; height: 80px; display: none; background-color: red"
+    ></div>
+    <br />
+    <div
+      id="div5"
+      style="width: 80px; height: 80px; display: none; background-color: green"
+    ></div>
+    <br />
+    <div
+      id="div6"
+      style="width: 80px; height: 80px; display: none; background-color: blue"
+    ></div>
+
+    <script>
+      $(document).ready(function () {
+        $("#ft").click(function () {
+          $("#div4").fadeToggle();
+          $("#div5").fadeToggle("slow");
+          $("#div6").fadeToggle(3000);
+        });
+      });
+    </script>
+
+    <button id="ft">Click to fade in/out boxes</button><br /><br />
+  </body>
+</html>
